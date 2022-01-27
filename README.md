@@ -66,4 +66,7 @@ docker run -it --rm -v $(pwd):/code --workdir /code maven mvn clean package -e
 ### Run Jar
 docker run -it --rm -p 8081:8081  -v $(pwd):/code --workdir /code maven mvn spring-boot:run
 ```
-ss
+./gradlew sonarqube \
+  -Dsonar.projectKey=test \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=6bc97caab961552c10be52a5218ae03f6e3e6560
