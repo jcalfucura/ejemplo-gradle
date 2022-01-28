@@ -17,4 +17,4 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
 docker run --rm -it -p 9010:8081 -u gradle -v $(pwd):/home/gradle/project -w /home/gradle/project gradle bash  
-asASasds
+asASasdsas
